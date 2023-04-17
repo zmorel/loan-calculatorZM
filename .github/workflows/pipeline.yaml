@@ -84,10 +84,11 @@ jobs:
           name: python-app
           path: .
 
-      - name: "Deploy to Azure Web App"
+      - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v2
         id: deploy-to-webapp
         with:
-          app-name: "colbert-loan"
-          slot-name: "Production"
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D7A7292BC7AC4095A9C8578456A82A99 }}
+          app-name: 'zjmorel-loan-calculator'
+          slot-name: 'Production'
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5DBFD60129764093939AE273270BD91A }}
+
