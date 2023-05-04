@@ -55,3 +55,9 @@ x
 [x] Error checking and error handling  
 [x] Re-configure Pytest for validation and error testing
 
+---
+
+# Example screenshot of loan calculator:
+
+![Screenshot of loan calculator.](./loancalculator.jpg)
+
